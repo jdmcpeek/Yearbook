@@ -1,0 +1,137 @@
+body {background-image: url("http://www.questionsonislam.com/sites/default/files/blue_clouds.jpg");}
+
+.container{
+width: 831px;
+border: 1px solid black;
+margin-right: auto;
+margin-left: auto;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.pic{
+width: 271px;
+height: 200px;
+border: 1px solid red;
+display: inline-block;
+/*overflow: hidden;*/
+margin-right: auto;
+margin-left: auto;
+position: relative;
+font-family: 'Lobster', cursive;
+
+
+}
+
+.pic:hover > .description{
+	-webkit-transform: scale(1.1) rotate(-5deg) translate(20%, 10%);
+	transition: ease-in 300ms;
+
+
+
+}
+.pic:hover > .picture{
+/*opacity: 0.7;*/
+transition: ease-in 300ms;
+-webkit-transform: scale(1.5, 1.5) rotate(-15deg) translate(-85%, 10%);
+z-index: 1;
+/*	-webkit-transform: rotate(15deg);*/
+-webkit-box-shadow: 10px 5px 5px black;
+
+
+}
+
+.pic:hover > #textbottom{
+/*opacity: 0.7;*/
+transition: ease-in 300ms;
+-webkit-transform: scale(1.1) rotate(5deg);
+position: absolute; bottom: 0px; right: 0px;
+z-index: 1;
+
+
+
+}
+
+.pic:hover > #bottom {
+/*opacity: 0.7;*/
+transition: ease-in 300ms;
+-webkit-transform: scale(1.5, 1.5) rotate(-15deg) translate(0, -40%);
+z-index: 1;
+/*	-webkit-transform: rotate(15deg);*/
+-webkit-box-shadow: 10px 5px 5px black;
+
+
+}
+
+.pic:hover > .picture1{
+/*opacity: 0.7;*/
+transition: ease-in 300ms;
+-webkit-transform: scale(1.5, 1.5) rotate(15deg) translate(85%, 10%);
+z-index: 1;
+/*	-webkit-transform: rotate(15deg);*/
+-webkit-box-shadow: 10px 5px 5px black;
+
+
+}
+
+.pic:hover > .picture2{
+/*opacity: 0.7;*/
+transition: ease-in 300ms;
+-webkit-transform: scale(1.5, 1.5) translate(0, 40%);
+z-index: 1;
+/*	-webkit-transform: rotate(15deg);*/
+-webkit-box-shadow: 10px 5px 5px black;
+
+
+}
+
+
+.picture{
+width: 100%;
+height: 100%;
+position: absolute;
+left: 0px;
+top: 0px;
+background-position: center;
+background-size: cover;
+opacity: 1.0;
+}
+
+.picture1{
+
+width: 100%;
+height: 100%;
+position: absolute;
+left: 0px;
+top: 0px;
+background-position: center;
+background-size: cover;
+opacity: 1.0;
+
+}
+
+.picture2{
+
+width: 100%;
+height: 100%;
+position: absolute;
+left: 0px;
+top: 0px;
+background-position: center;
+background-size: cover;
+opacity: 1.0;
+
+}
+
+.pic:hover > #top{
+/*opacity: 0.7;*/
+transition: ease-in 300ms;
+-webkit-transform: scale(1.5, 1.5) translate(0%, 40%);
+z-index: 1;
+-webkit-box-shadow: 10px 5px 5px black;
+/*	-webkit-transform: rotate(15deg);*/
+
+
+}
+
